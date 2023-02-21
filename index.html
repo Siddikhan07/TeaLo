@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea lo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="logo">TEA LO</div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+
+
+    <section>
+        <div class="content">
+            <h1>Want to make Tea?</h1>
+            <p>But confused</p>
+            <h2>Don't Worry</h2>
+            <p>We are with you. We gives you the recipe which changes with number of person and proive you the best recipe which touches your heart. </p>
+            <p>Make your tea special with tea lo</p>
+            <h2>Wow!</h2>
+            <h3>But How?</h3>
+            <p>By just entering the no of peoples for whom yoou want to make tea for.</p>
+        </div>
+        <section>
+            <div class="contact-us">
+                    <div class="contact-col">
+                            <input id="no" type="number" name="number" value="0" min="1" max="10" >
+                            <button onclick="fun()" class="hero-btn red-btn">Enter</button>
+                            
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop()) {
+                $("nav").addClass("black");
+            }
+            else {
+                $("nav").removeClass("black");
+            }
+        });
+    </script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
